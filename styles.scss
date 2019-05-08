@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+@for $daysInMonth from 28 through 31 {
+  @for $i from 1 through $daysInMonth {
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 100px);
+      grid-row: 10;
+      grid-gap: 1px;
+      justify-content: center;
+    }
+    .calendar-#{$daysInMonth} div:nth-child(#{$i}) {
+      border: 1px solid #000;
+      border-collapse: collapse;
+      background: #eee;
+      line-height: 100px;
+      text-align: center;
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: .5s;
+        background-color: pink;
+      }
+  }
+    .calendar-#{$daysInMonth} div:nth-child(#{$i}):after {
+        content: "#{$i}";
+    }
+  }
+}
+$days: (
+    mon: 1,
+    tue: 2,
+    wed: 3,
+    thu: 4,
+    fri: 5,
+    sat: 6,
+    sun: 7
+);
+
+@each $days, $num-day in $days {
+    div.calendar-#{$days} div:nth-child(1) {
+        grid-column-start: #{$num-day};
+    }
+}
