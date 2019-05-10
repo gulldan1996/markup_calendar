@@ -14,19 +14,23 @@ body {
   grid-row: 10;
   grid-gap: 1px;
   justify-content: center;
+  margin-top: 30px;
+}
+.calendar > div {
+  line-height: 100px;
+  text-align: center;
+  transition: 0.5s;
+}
+.calendar > div:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
 }
 
 .calendar-28 div:nth-child(1) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(1):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -34,25 +38,11 @@ body {
   content: "1";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(2) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(2):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -60,25 +50,11 @@ body {
   content: "2";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(3) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(3):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -86,25 +62,11 @@ body {
   content: "3";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(4) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(4):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -112,25 +74,11 @@ body {
   content: "4";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(5) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(5):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -138,25 +86,11 @@ body {
   content: "5";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(6) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(6):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -164,25 +98,11 @@ body {
   content: "6";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(7) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(7):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -190,25 +110,11 @@ body {
   content: "7";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(8) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(8):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -216,25 +122,11 @@ body {
   content: "8";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(9) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(9):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -242,25 +134,11 @@ body {
   content: "9";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(10) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(10):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -268,25 +146,11 @@ body {
   content: "10";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(11) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(11):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -294,25 +158,11 @@ body {
   content: "11";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(12) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(12):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -320,25 +170,11 @@ body {
   content: "12";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(13) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(13):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -346,25 +182,11 @@ body {
   content: "13";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(14) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(14):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -372,25 +194,11 @@ body {
   content: "14";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(15) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(15):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -398,25 +206,11 @@ body {
   content: "15";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(16) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(16):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -424,25 +218,11 @@ body {
   content: "16";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(17) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(17):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -450,25 +230,11 @@ body {
   content: "17";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(18) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(18):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -476,25 +242,11 @@ body {
   content: "18";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(19) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(19):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -502,25 +254,11 @@ body {
   content: "19";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(20) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(20):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -528,25 +266,11 @@ body {
   content: "20";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(21) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(21):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -554,25 +278,11 @@ body {
   content: "21";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(22) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(22):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -580,25 +290,11 @@ body {
   content: "22";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(23) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(23):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -606,25 +302,11 @@ body {
   content: "23";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(24) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(24):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -632,25 +314,11 @@ body {
   content: "24";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(25) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(25):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -658,25 +326,11 @@ body {
   content: "25";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(26) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(26):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -684,25 +338,11 @@ body {
   content: "26";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(27) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(27):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -710,25 +350,11 @@ body {
   content: "27";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-28 div:nth-child(28) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-28 div:nth-child(28):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -736,25 +362,11 @@ body {
   content: "28";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(1) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(1):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -762,25 +374,11 @@ body {
   content: "1";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(2) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(2):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -788,25 +386,11 @@ body {
   content: "2";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(3) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(3):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -814,25 +398,11 @@ body {
   content: "3";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(4) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(4):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -840,25 +410,11 @@ body {
   content: "4";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(5) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(5):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -866,25 +422,11 @@ body {
   content: "5";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(6) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(6):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -892,25 +434,11 @@ body {
   content: "6";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(7) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(7):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -918,25 +446,11 @@ body {
   content: "7";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(8) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(8):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -944,25 +458,11 @@ body {
   content: "8";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(9) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(9):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -970,25 +470,11 @@ body {
   content: "9";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(10) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(10):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -996,25 +482,11 @@ body {
   content: "10";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(11) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(11):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1022,25 +494,11 @@ body {
   content: "11";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(12) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(12):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1048,25 +506,11 @@ body {
   content: "12";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(13) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(13):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1074,25 +518,11 @@ body {
   content: "13";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(14) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(14):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1100,25 +530,11 @@ body {
   content: "14";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(15) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(15):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1126,25 +542,11 @@ body {
   content: "15";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(16) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(16):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1152,25 +554,11 @@ body {
   content: "16";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(17) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(17):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1178,25 +566,11 @@ body {
   content: "17";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(18) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(18):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1204,25 +578,11 @@ body {
   content: "18";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(19) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(19):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1230,25 +590,11 @@ body {
   content: "19";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(20) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(20):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1256,25 +602,11 @@ body {
   content: "20";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(21) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(21):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1282,25 +614,11 @@ body {
   content: "21";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(22) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(22):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1308,25 +626,11 @@ body {
   content: "22";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(23) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(23):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1334,25 +638,11 @@ body {
   content: "23";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(24) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(24):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1360,25 +650,11 @@ body {
   content: "24";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(25) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(25):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1386,25 +662,11 @@ body {
   content: "25";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(26) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(26):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1412,25 +674,11 @@ body {
   content: "26";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(27) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(27):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1438,25 +686,11 @@ body {
   content: "27";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(28) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(28):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1464,25 +698,11 @@ body {
   content: "28";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-29 div:nth-child(29) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-29 div:nth-child(29):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1490,25 +710,11 @@ body {
   content: "29";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(1) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(1):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1516,25 +722,11 @@ body {
   content: "1";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(2) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(2):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1542,25 +734,11 @@ body {
   content: "2";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(3) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(3):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1568,25 +746,11 @@ body {
   content: "3";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(4) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(4):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1594,25 +758,11 @@ body {
   content: "4";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(5) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(5):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1620,25 +770,11 @@ body {
   content: "5";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(6) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(6):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1646,25 +782,11 @@ body {
   content: "6";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(7) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(7):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1672,25 +794,11 @@ body {
   content: "7";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(8) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(8):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1698,25 +806,11 @@ body {
   content: "8";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(9) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(9):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1724,25 +818,11 @@ body {
   content: "9";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(10) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(10):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1750,25 +830,11 @@ body {
   content: "10";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(11) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(11):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1776,25 +842,11 @@ body {
   content: "11";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(12) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(12):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1802,25 +854,11 @@ body {
   content: "12";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(13) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(13):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1828,25 +866,11 @@ body {
   content: "13";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(14) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(14):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1854,25 +878,11 @@ body {
   content: "14";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(15) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(15):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1880,25 +890,11 @@ body {
   content: "15";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(16) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(16):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1906,25 +902,11 @@ body {
   content: "16";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(17) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(17):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1932,25 +914,11 @@ body {
   content: "17";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(18) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(18):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1958,25 +926,11 @@ body {
   content: "18";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(19) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(19):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -1984,25 +938,11 @@ body {
   content: "19";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(20) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(20):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2010,25 +950,11 @@ body {
   content: "20";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(21) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(21):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2036,25 +962,11 @@ body {
   content: "21";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(22) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(22):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2062,25 +974,11 @@ body {
   content: "22";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(23) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(23):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2088,25 +986,11 @@ body {
   content: "23";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(24) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(24):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2114,25 +998,11 @@ body {
   content: "24";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(25) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(25):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2140,25 +1010,11 @@ body {
   content: "25";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(26) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(26):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2166,25 +1022,11 @@ body {
   content: "26";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(27) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(27):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2192,25 +1034,11 @@ body {
   content: "27";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(28) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(28):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2218,25 +1046,11 @@ body {
   content: "28";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(29) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(29):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2244,25 +1058,11 @@ body {
   content: "29";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-30 div:nth-child(30) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-30 div:nth-child(30):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2270,25 +1070,11 @@ body {
   content: "30";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(1) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(1):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2296,25 +1082,11 @@ body {
   content: "1";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(2) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(2):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2322,25 +1094,11 @@ body {
   content: "2";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(3) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(3):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2348,25 +1106,11 @@ body {
   content: "3";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(4) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(4):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2374,25 +1118,11 @@ body {
   content: "4";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(5) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(5):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2400,25 +1130,11 @@ body {
   content: "5";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(6) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(6):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2426,25 +1142,11 @@ body {
   content: "6";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(7) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(7):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2452,25 +1154,11 @@ body {
   content: "7";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(8) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(8):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2478,25 +1166,11 @@ body {
   content: "8";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(9) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(9):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2504,25 +1178,11 @@ body {
   content: "9";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(10) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(10):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2530,25 +1190,11 @@ body {
   content: "10";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(11) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(11):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2556,25 +1202,11 @@ body {
   content: "11";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(12) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(12):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2582,25 +1214,11 @@ body {
   content: "12";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(13) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(13):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2608,25 +1226,11 @@ body {
   content: "13";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(14) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(14):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2634,25 +1238,11 @@ body {
   content: "14";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(15) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(15):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2660,25 +1250,11 @@ body {
   content: "15";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(16) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(16):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2686,25 +1262,11 @@ body {
   content: "16";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(17) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(17):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2712,25 +1274,11 @@ body {
   content: "17";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(18) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(18):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2738,25 +1286,11 @@ body {
   content: "18";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(19) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(19):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2764,25 +1298,11 @@ body {
   content: "19";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(20) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(20):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2790,25 +1310,11 @@ body {
   content: "20";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(21) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(21):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2816,25 +1322,11 @@ body {
   content: "21";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(22) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(22):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2842,25 +1334,11 @@ body {
   content: "22";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(23) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(23):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2868,25 +1346,11 @@ body {
   content: "23";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(24) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(24):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2894,25 +1358,11 @@ body {
   content: "24";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(25) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(25):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2920,25 +1370,11 @@ body {
   content: "25";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(26) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(26):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2946,25 +1382,11 @@ body {
   content: "26";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(27) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(27):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2972,25 +1394,11 @@ body {
   content: "27";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(28) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(28):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -2998,25 +1406,11 @@ body {
   content: "28";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(29) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(29):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -3024,25 +1418,11 @@ body {
   content: "29";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(30) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(30):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -3050,25 +1430,11 @@ body {
   content: "30";
 }
 
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-row: 10;
-  grid-gap: 1px;
-  justify-content: center;
-}
-
 .calendar-31 div:nth-child(31) {
   border: 1px solid #000;
-  border-collapse: collapse;
   background: #eee;
-  line-height: 100px;
-  text-align: center;
 }
 .calendar-31 div:nth-child(31):hover {
-  cursor: pointer;
-  transform: translateY(-20px);
-  transition: 0.5s;
   background-color: pink;
 }
 
@@ -3076,31 +1442,31 @@ body {
   content: "31";
 }
 
-div.calendar-mon div:first-child {
+div.calendar-mon div:nth-child(1) {
   grid-column-start: 1;
 }
 
-div.calendar-tue div:first-child {
+div.calendar-tue div:nth-child(1) {
   grid-column-start: 2;
 }
 
-div.calendar-wed div:first-child {
+div.calendar-wed div:nth-child(1) {
   grid-column-start: 3;
 }
 
-div.calendar-thu div:first-child {
+div.calendar-thu div:nth-child(1) {
   grid-column-start: 4;
 }
 
-div.calendar-fri div:first-child {
+div.calendar-fri div:nth-child(1) {
   grid-column-start: 5;
 }
 
-div.calendar-sat div:first-child {
+div.calendar-sat div:nth-child(1) {
   grid-column-start: 6;
 }
 
-div.calendar-sun div:first-child {
+div.calendar-sun div:nth-child(1) {
   grid-column-start: 7;
 }
 
