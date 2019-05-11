@@ -15,12 +15,16 @@ body {
   justify-content: center;
   margin-top: 30px;
   > div {
+    display: none;
     line-height: 100px;
     text-align: center;
     transition: .5s;
+    border: 1px solid #000;
+    background: #eee;
     &:hover {
       cursor: pointer;
       transform: translateY(-20px);
+      background-color: pink;
     }
   }
 }
@@ -28,11 +32,7 @@ body {
 @for $daysInMonth from 28 through 31 {
   @for $i from 1 through $daysInMonth {
     .calendar-#{$daysInMonth} div:nth-child(#{$i}) {
-      border: 1px solid #000;
-      background: #eee;
-      &:hover {
-      background-color: pink;
-      }
+      display: block;
   }
     .calendar-#{$daysInMonth} div:nth-child(#{$i}):after {
         content: "#{$i}";
